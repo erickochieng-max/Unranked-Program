@@ -80,7 +80,7 @@ section h2{
     font-weight: 400;
 }
 
-.skillpg::after{
+.skill-pg::after{
     content: "";
     position: absolute;
     z-index: -1;
@@ -89,4 +89,9 @@ section h2{
     translateZ(-1px)
     scale(1.5);
     background-size: 100%;
+}
+
+.pg::after{
+    background: url("");
+    background-size: cover;
 }
