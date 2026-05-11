@@ -18,7 +18,7 @@ header{
 .nav-menu{
    display: flex;
    list-style: none;
-   gap: 30px;
+   gap: 40px;
 }
 
 .nav-menu a{
@@ -27,4 +27,8 @@ text-decoration: none;
 font-weight: bold;
 position: relative;
 transition: 0.3s ease;
+}
+
+.nav-menu a:hover{
+color: green;
 }
