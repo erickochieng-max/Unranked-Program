@@ -14,10 +14,17 @@ header{
     padding: 10px 40px;
 }
  
-/* Navbar Menu */
+/* Navbar Menu Effects */
 .nav-menu{
    display: flex;
    list-style: none;
    gap: 30px;
+}
 
+.nav-menu a{
+color: black;
+text-decoration: none;
+font-weight: bold;
+position: relative;
+transition: 0.3s ease;
 }
