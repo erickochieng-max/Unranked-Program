@@ -53,3 +53,9 @@ transition: 0.3s ease;
     width: 100%;
 }
 
+main{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
