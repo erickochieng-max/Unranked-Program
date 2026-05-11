@@ -6,6 +6,10 @@ body{
     font-family: "Ubuntu",sans-serif;
 }
 
+h1:hover{
+  color: green;
+}
+
 /* Header */
 header{
     display: flex;
@@ -19,6 +23,7 @@ header{
    display: flex;
    list-style: none;
    gap: 40px;
+   font-size: 18px;
 }
 
 .nav-menu a{
