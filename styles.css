@@ -18,7 +18,7 @@ header{
     padding: 10px 40px;
 }
 
-/* Logo */
+/* Logo Effects*/
 .logo{
     display: flex;
     align-items: center;
@@ -26,10 +26,15 @@ header{
 }
 
 .logo img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
+
+/* .logo img::before{
+    position: absolute;
+} */
+
 
 /* Navbar Menu Effects */
 .nav-menu{
@@ -68,7 +73,7 @@ transition: 0.3s ease;
 
 /* Background img */
 .back{
-    padding: 200px 20px;
+    padding: 80px 10px;
     background: url('Unranked\ logo.svg') no-repeat center/cover;
 }
 
@@ -121,4 +126,9 @@ form{
 label{
     text-align: left;
     margin-top: 12px;
+}
+
+/* head effects */
+h2:hover{
+    color: green;
 }
