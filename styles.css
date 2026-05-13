@@ -17,7 +17,20 @@ header{
     align-items: center;
     padding: 10px 40px;
 }
- 
+
+/* Logo */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 /* Navbar Menu Effects */
 .nav-menu{
    display: flex;
