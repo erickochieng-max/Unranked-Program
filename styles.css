@@ -72,7 +72,7 @@ transition: 0.3s ease;
     background: url('Unranked\ logo.svg') no-repeat center/cover;
 }
 
-/* Progrm page effects */
+/* Program page effects */
 main{
     height: 100vh;
     overflow-x: hidden;
@@ -83,7 +83,7 @@ main{
 section{
     transform-style: preserve-3d;
     position: relative;
-    height: 30vh;
+    height: 60vh;
     display:grid;
     place-items: center;
 }
