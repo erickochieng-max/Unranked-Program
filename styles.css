@@ -66,6 +66,12 @@ transition: 0.3s ease;
     width: 100%;
 }
 
+/* Background index */
+.back{
+    padding: 300px 20px;
+    background: url('Unranked\ logo.svg') no-repeat center/cover;
+}
+
 /* Progrm page effects */
 main{
     height: 100vh;
