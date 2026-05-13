@@ -72,7 +72,7 @@ transition: 0.3s ease;
     background: url('Unranked\ logo.svg') no-repeat center/cover;
 }
 
-/* home */
+/* home effects */
 .home{
     padding: 0 80px;
 }
@@ -105,9 +105,20 @@ section h2{
     font-weight: 400;
 }
 
-/* footer */
+/* footer effects*/
 footer{
     text-align: center;
     padding: 20px;
     font-weight: bold;
+}
+
+/* form effects */
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    margin-top: 12px;
 }
