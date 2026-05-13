@@ -68,8 +68,16 @@ transition: 0.3s ease;
 
 /* Background index */
 .back{
-    padding: 300px 20px;
+    padding: 250px 20px;
     background: url('Unranked\ logo.svg') no-repeat center/cover;
+}
+
+/* home */
+.home{
+    padding: 0 80px;
+}
+.home-h2{
+    align-items: center;
 }
 
 /* Program page effects */
