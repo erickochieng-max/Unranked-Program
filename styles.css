@@ -64,7 +64,7 @@ main{
 section{
     transform-style: preserve-3d;
     position: relative;
-    height: 60vh;
+    height: 30vh;
     display:grid;
     place-items: center;
 }
@@ -80,18 +80,3 @@ section h2{
     font-weight: 400;
 }
 
-/* .skill-pg::after{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    transform: 
-    translateZ(-1px)
-    scale(1.5);
-    background-size: 100%;
-} */
-
-/* .pg::after{
-    background: url("");
-    background-size: cover;
-} */
