@@ -6,8 +6,7 @@ window.addEventListener("load", function() {
 
 document.getElementById('elegibility-form').addEventListener('submit',function(event){
     event.preventDefault();
-
-    
+      
         // Values
         const childName = document.getElementById("child-name").value;
         const age = Number(document.getElementById("age").value);
@@ -43,22 +42,22 @@ document.getElementById('elegibility-form').addEventListener('submit',function(e
                 else if (skillLevel === "elite"){
                     trainingTime = "11:30 AM to 13:00 AM";
                 }
-
-                // Results
+            
+                    // Results
                 const resultDisplay = document.getElementById("result");
 
                  resultDisplay.innerText =
                 childName +
-                "Qualified for the" +
+                " is qualified for the " +
                 skillLevel +
-                "Program and should train from" +
+                " program and should train from " +
                 trainingTime +
                 "."
                 resultDisplay.style.color = "black";
 
                 setTimeout(function(){
                     location.reload();
-                },15000);
+                },10000);
 
     });
 

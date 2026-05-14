@@ -127,16 +127,15 @@ footer{
     border-radius: 10px;
 }
 
-.holder:hover{
-    box-shadow: 0px 0px 30px black;
+/* .holder:hover{
+    box-shadow: 0px 0px 30px green;
     transform: scale(1.03);
-}
+} */
 
 #result{
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    font-weight: bold;
   }
 
 
@@ -159,10 +158,14 @@ label,select,button{
 
 button{
     margin-top: 16px;
-    background-color:black;
+    background-color:green;
     color: white;
     border: none;
     cursor: pointer;
+}
+
+button:hover{
+    transform: scale(0.9);
 }
 
 /* head effects */
@@ -210,7 +213,7 @@ h2:hover{
   .contact-container {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 20px;
     flex-wrap: wrap;
   }
 
@@ -255,7 +258,6 @@ h2:hover{
     transform: scale(1);
   }
   
-
 
 
   
