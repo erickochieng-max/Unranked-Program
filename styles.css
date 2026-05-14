@@ -128,7 +128,7 @@ footer{
 }
 
 .holder:hover{
-    /* box-shadow: 0px 0px 30px rgb(0, 90, 0); */
+    box-shadow: 0px 0px 30px black;
     transform: scale(1.03);
 }
 
@@ -226,6 +226,12 @@ h2:hover{
     flex-direction: column;
     gap: 20px;
     width: 300px;
+    padding: 25px;
+  }
+
+  .contact-form:hover{
+    box-shadow: 10px 20px 40px black;
+    transform: scale(1.02);
   }
 
   .contact-form input,
@@ -239,15 +245,15 @@ h2:hover{
     padding: 10px;
     border: none;
     background: green;
-    color: black;
+    color: white;
     cursor: pointer;
     border-radius: 8px;
   }
 
-  /* .lego{
+  .contact-form button:hover{
     background: black;
-    color: white;
-  } */
+    transform: scale(1);
+  }
   
 
 
