@@ -120,6 +120,13 @@ footer{
 }
 
 /* form effects */
+.holder{
+    width: 360px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
 form{
     display: flex;
     flex-direction: column;
