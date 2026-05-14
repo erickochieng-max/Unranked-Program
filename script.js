@@ -3,4 +3,13 @@ window.addEventListener("load", function() {
 });
 
 // Elegibility Form
-const elegibilityForm = document.getElementById("elegibility-form")
+const elegibilityForm = document.getElementById("elegibility-form");
+if (elegibilityForm){
+    elegibilityForm.addEventListener("submit", function(event){
+        event.preventDefault();
+
+        // Values
+        const childName = document.getElementById("child-name")
+    })
+}
+   
