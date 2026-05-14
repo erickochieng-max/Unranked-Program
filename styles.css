@@ -148,3 +148,8 @@ h2:hover{
     object-fit: cover;
     border-radius: 10px;
 }
+
+.image img:hover{
+    box-shadow: 0px 0px 40px black;
+  transform: scale(1.08);
+}
