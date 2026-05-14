@@ -177,3 +177,56 @@ h2:hover{
     box-shadow: 0px 0px 40px black;
   transform: scale(1.08);
 }
+
+/* Contact */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .contact p {
+    margin: 30px;
+  }
+
+  /* Contact form layout */
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  /* Contact info */
+  .contact-info {
+    max-width: 350px;
+    text-align: left; 
+  }
+
+  /* Contact form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .contact-form button {
+    padding: 10px;
+    border: none;
+    background: green;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+  }
