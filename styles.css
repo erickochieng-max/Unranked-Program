@@ -133,6 +133,8 @@ label{
 /* head effects */
 h2:hover{
     color: green;
+    box-shadow: 0px 0px 0px black;
+  transform: scale(1.08);
 }
 
 .image{
