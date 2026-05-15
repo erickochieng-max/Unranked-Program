@@ -1,5 +1,263 @@
+/* Body */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body{
     margin: 0;
     font-family: "Ubuntu",sans-serif;
 }
+
+
+h1:hover{
+  color:green;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+/* Logo Effects*/
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* .logo img::before{
+    position: absolute;
+} */
+
+
+/* Navbar Menu Effects */
+.nav-menu{
+   display: flex;
+   list-style: none;
+   gap: 40px;
+   font-size: 18px;
+}
+
+.nav-menu a{
+color: black;
+text-decoration: none;
+font-weight: bold;
+position: relative;
+transition: 0.3s ease;
+/* text-shadow: 0px 0px 20px grey; */
+}
+ 
+.nav-menu a:hover{
+color: green;
+}
+
+.nav-menu a::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: -5px;
+width: 0%;
+height: 2px;
+background: green;
+transition: 0.3s ease;
+}
+
+.nav-menu a:hover::after{
+    width: 100%;
+}
+
+/* Background img */
+.back{
+    padding: 80px 20px;
+    background: url('Unranked\ logo.svg') no-repeat center/cover;
+}
+
+/* home effects */
+.home{
+    padding: 0 80px;
+}
+
+
+/* Program page effects */
+main{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+section{
+    transform-style: preserve-3d;
+    position: relative;
+    height: 60vh;
+    display:grid;
+    place-items: center; 
+}
+
+.skill{
+    background: var(--background);
+    z-index: 1;
+    padding: 0 80px;
+}
+
+section h2{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+/* footer effects*/
+footer{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/*  Elegibiity form effects */
+.holder{
+    width: 360px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* .holder:hover{
+    box-shadow: 0px 0px 30px green;
+    transform: scale(1.03);
+} */
+
+#result{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    margin-top: 12px;
+    
+}
+
+label,select,button{
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+
+button{
+    margin-top: 16px;
+    background-color:green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(0.9);
+}
+
+/* head effects */
+h2:hover{
+    color: green;
+    box-shadow: 0px 0px 0px black;
+  transform: scale(1.08);
+}
+
+.image{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 50px;
+}
+
+.image img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image img:hover{
+    box-shadow: 0px 0px 40px black;
+  transform: scale(1.08);
+}
+
+/* Contact */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .contact p {
+    margin: 30px;
+  }
+
+  /* Contact form layout */
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Contact info */
+  .contact-info {
+    max-width: 350px;
+    text-align: left; 
+  }
+
+  /* Contact form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    padding: 25px;
+  }
+
+  .contact-form:hover{
+    box-shadow: 10px 20px 40px black;
+    transform: scale(1.02);
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .contact-form button {
+    padding: 10px;
+    border: none;
+    background: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .contact-form button:hover{
+    background: black;
+    transform: scale(1);
+  }
+  
+
+
+  
