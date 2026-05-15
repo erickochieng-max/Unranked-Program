@@ -14,7 +14,7 @@
 - JavaSript
 
 # Setup and Installation
-- Git clone the repository: click here to view the website:
+- Git clone the repository: click here to view the website:https://erickochieng-max.github.io/Unranked-Program/
 - Open the repository from Ubuntu to VS code 
 - Access files on the VS code
 - Open the files 
